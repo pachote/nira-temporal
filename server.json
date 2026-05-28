@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pachote/nira-temporal",
+  "title": "NIRA Temporal MCP",
+  "description": "Time-aware scheduling for Claude \u2014 manage tasks, reminders, and recurring schedules",
+  "repository": {
+    "url": "https://github.com/pachote/nira-temporal",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "pypi",
+      "identifier": "nira-temporal",
+      "version": "1.0.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "NIRA_DATA_DIR",
+          "description": "Directory for schedule data (default: ~/nira_temporal)",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}
