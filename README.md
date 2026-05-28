@@ -1,5 +1,9 @@
 # NIRA Temporal MCP
 
+<!-- mcp-name: io.github.pachote/nira-temporal -->
+
+mcp-name: io.github.pachote/nira-temporal
+
 > Time-aware scheduling for Claude — manage tasks, reminders, and recurring schedules
 
 [![PyPI version](https://badge.fury.io/py/nira-temporal.svg)](https://pypi.org/project/nira-temporal/)

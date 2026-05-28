@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "nira-temporal"
-version = "1.0.0"
+version = "1.0.1"
 description = "Time-aware scheduling for Claude — manage tasks, reminders, and recurring schedules"
 readme = "README.md"
 requires-python = ">=3.11"
